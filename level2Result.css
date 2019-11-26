@@ -1,0 +1,88 @@
+#story {
+  box-sizing: border-box;
+  margin: 80px auto 50px;
+  padding: 20px 40px;
+  width: 500px;
+  height: 400px;
+  background-color: #F2EFE9;
+  border-top: 20px solid #F2CA80;
+  border-bottom: 50px solid #F2856D;
+  box-shadow:
+     30px 0px 15px -5px rgba(0, 0, 0, 0.2),
+    -30px 0px 15px -5px rgba(0, 0, 0, 0.2);
+}
+#story h2 {
+  font: bold 57px sans-serif;
+  color: #558C03;
+  margin: 0 0 12px;
+  padding: 0 0 10px;
+  border-bottom: 4px dotted #558C03;
+}
+#story p {
+  font: 27px sans-serif;
+  color: #072621;
+  margin: 0 0 20px;
+  padding: 10px 0px;
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+}
+button {
+  cursor: pointer;
+}
+button.outline {
+  text-align:center;
+  vertical-align: middle;
+  position: relative;
+  z-index: 3;
+  background: transparent;
+  color: #5BD3DE;
+  font-size: 14px;
+  font-weight: bold;
+  border-color: #5BD3DE;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 15px;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  transition: all 0.2s linear;
+}
+
+button.outline a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button.outline:hover {
+  color: white;
+  background: #5BD3DE;
+  transition: all 0.2s linear;
+}
+button.outline:active {
+  border-radius: 22px;
+}
+
+button.green-white {
+  font-weight: 700;
+  color: #54A266;
+  border-color: #54A266;
+  background: transparent;
+}
+button.green-white:hover {
+  color: white;
+  background: #54A266;
+  border-color: #54A266;
+}
+button.purple-white {
+  font-weight: 700;
+  color: #7E78C0;
+  border-color: #7E78C0;
+  background: transparent;
+}
+button.purple-white:hover {
+  color: white;
+  background: #7E78C0;
+  border-color: #7E78C0;
+}
